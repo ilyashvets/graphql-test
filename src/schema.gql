@@ -1,0 +1,14 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type TicketEntity {
+  section: String!
+  row: String!
+  number: Int!
+  price: Int!
+}
+
+type Query {
+  tickets(id: Float!): [TicketEntity!]!
+}
